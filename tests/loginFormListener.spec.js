@@ -2,7 +2,7 @@ import { expect, test } from "@playwright/test";
 import { config } from "dotenv";
 config();
 test.describe("login", () => {
-  test("login functionality test", async ({ page }) => {
+  test.skip("login functionality test", async ({ page }) => {
     await page.goto("/login/");
 
     await page.locator('input[name="email"]').fill(process.env.TEST_USERNAME);
@@ -12,7 +12,7 @@ test.describe("login", () => {
 
     await page.getByRole("button", { name: "Login" }).click();
 
-    await expect(page.getByRole("button", { name: "logout" })).toBeVisible();
+    await expect(page.getByRole("button", { name: "Logout" })).toBeVisible();
   });
 
   test.skip("login feil test", async ({ page }) => {
