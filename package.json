@@ -8,7 +8,8 @@
     "dev": "npx tailwindcss -i ./css/input.css -o ./css/style.css --watch",
     "prepare": "husky install",
     "test": "vitest",
-    "start": "live-Server --port=5500"
+    "start": "live-Server --port=5500",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",

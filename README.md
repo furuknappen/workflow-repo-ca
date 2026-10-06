@@ -2,9 +2,11 @@
 
 # Project title
 
+Holidaze
+
 ## Description
 
-A website to search for venues
+A website to look at venues where you can stay for the holidays
 
 ## Installation
 
