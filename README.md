@@ -28,3 +28,8 @@ A website to look at venues where you can stay for the holidays. Register a user
 ```bash
   npm run start
 ```
+
+### Required environment variables in .env
+
+TEST_USERNAME
+TEST_PASSWORD
