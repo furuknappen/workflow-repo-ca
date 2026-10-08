@@ -7,11 +7,11 @@ describe("getUsername", () => {
   });
 
   it("Returns the name from the user object in storage", () => {
-    const user = { name: "Kai" };
+    const user = { data: { name: "Kai" } };
     saveUser(user);
 
     const result = getUsername();
-    expect(result).toBe(user.name);
+    expect(result).toBe(user.data.name);
   });
 
   it("Returns null when no user exists in storage", () => {
