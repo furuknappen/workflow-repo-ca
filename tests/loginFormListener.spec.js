@@ -12,7 +12,7 @@ test.describe("login", () => {
 
     await page.getByRole("button", { name: "Login" }).click();
 
-    await expect(page.getByRole("button", { name: "Logout" })).toBeVisible();
+    await expect(page.getByRole("button", '[id="logoutButton"]')).toBeVisible();
   });
 
   test("login feil test", async ({ page }) => {

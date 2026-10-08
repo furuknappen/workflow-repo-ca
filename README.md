@@ -1,12 +1,13 @@
-# Workflow repo for the CA
+# Holidaze
 
-# Project title
+A website to look at venues where you can stay for the holidays. Register a user and log in to your account.
 
-Holidaze
+## Features
 
-## Description
-
-A website to look at venues where you can stay for the holidays
+- Register account
+- Log in and log out
+- Browse a list of venues
+- View a single venue
 
 ## Installation
 
@@ -22,15 +23,8 @@ A website to look at venues where you can stay for the holidays
   npm install
 ```
 
-### start watchmode
+### start the app
 
 ```bash
-  npm run dev
+  npm run start
 ```
-
-## Features
-
-- Register account
-- Log in and log out
-- Browse a list of venues
-- View a single venue
